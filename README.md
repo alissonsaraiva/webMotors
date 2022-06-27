@@ -26,7 +26,7 @@
     ```
 2. Dependências do Projeto
 
-	* Instalar pacotes (Usar sudo caso necessário)
+	Instalar pacotes (Usar sudo caso necessário)
 	```
 	$ bundle install
 	```
