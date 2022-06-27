@@ -69,6 +69,9 @@ end
   
 Então('verifico o contrato do serviço de marcas de veículos') do
     hash = @response_make_get.parsed_response[0]
+    expect(@response_make_get.code).to eql(200)
     expect(hash[hash.keys[0]]).to be_a_kind_of(Integer) #ID
     expect(hash[hash.keys[1]]).to be_a_kind_of(String) #NAME
+    expect(hash[hash.keys[0]]).to eql 1
+    expect(hash[hash.keys[1]]).to eql "Chevrolet"
 end
