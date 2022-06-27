@@ -1,0 +1,8 @@
+url_web_defaut: 'https://hportal.webmotors.com.br'
+url_api_defaut: 'https://desafioonline.webmotors.com.br/'
+
+params:
+  make: '/api/OnlineChallenge/Make'
+  model: '/api/OnlineChallenge/Model?MakeID={id_model}'
+  version: '/api/OnlineChallenge/Version?ModelID={id_model}'
+  vehicle: '/api/OnlineChallenge/Vehicles?Page={id_model}'

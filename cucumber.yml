@@ -1,0 +1,4 @@
+default: --profile pretty -p dev --publish-quiet -p html_report
+pretty: --format pretty
+dev: AMBIENTE=dev
+html_report: --format html --out=reports/relatorio.html
