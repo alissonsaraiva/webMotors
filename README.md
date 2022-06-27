@@ -33,13 +33,13 @@
 
 ### Executar Testes
   Para executar o teste de API:
-  
+  ```
   $ cucumber -t @teste_api_webmotors
-
+  ```
   Para executar o teste de API:
-
+  ```
   $ cucumber -t @teste_web_webmotors
-```
+  ```
 
 
 ## FAQ
