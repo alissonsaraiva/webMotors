@@ -34,8 +34,8 @@ Esquema do Cenário: Consultar serviço de versão de modelos de veículos
         |            Name                |
         | 1.5 DX 16V FLEX 4P AUTOMÁTICO  |
     Exemplos:
-        |             id                 |
-        |             '1'                |
+        |             id            |
+        |             '1'           |
 
 @get_vehicles
 Esquema do Cenário: Consultar serviço de informações dos veículos filtrando por pages

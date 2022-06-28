@@ -33,9 +33,9 @@ end
 Dado('que eu desejo consultar a versão de modelos de veículos') do
     class_support.get_version
 end
-  
-Quando('eu realizo uma requisição filtrando pelo {string} do modelo do veículo') do |model|
-    @response_get_version_by_model = class_support.get_by_model(model)
+
+Quando('eu realizo uma requisição filtrando pelo {string} do modelo do veículo') do |id|
+    @response_get_version_by_model = class_support.get_by_model(id)
 end
   
 Então('devo receber a versão de acordo com o filtro de modelo informado') do |table|
