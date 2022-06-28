@@ -24,7 +24,7 @@ Esquema do Cenário: Consultar serviço de modelos de veículos
       | Onix  |
     Exemplos:
       |  id   |
-      |  '1'  |
+      |  1    |
 
 @get_version
 Esquema do Cenário: Consultar serviço de versão de modelos de veículos
@@ -35,7 +35,7 @@ Esquema do Cenário: Consultar serviço de versão de modelos de veículos
         | 1.5 DX 16V FLEX 4P AUTOMÁTICO  |
     Exemplos:
         |             id            |
-        |             '1'           |
+        |             1             |
 
 @get_vehicles
 Esquema do Cenário: Consultar serviço de informações dos veículos filtrando por pages
@@ -47,7 +47,7 @@ Esquema do Cenário: Consultar serviço de informações dos veículos filtrando
       | Mitsubishi |   Lancer   | 2.0 EVO 4P AUTOMÁTICO                   | 
     Exemplos:
         |             page                 |
-        |             '1'                |
+        |              1                   |
 
 @verifica_contrato
 Cenário: verificar contrato da API de marcas de veículos

@@ -18,7 +18,7 @@ Dado('que eu desejo consultar o serviço de modelos de veículos filtrando pela 
     class_support.get_model
 end
   
-Quando('eu realizo uma requisição filtrando pelo {string} da marca') do |make|
+Quando('eu realizo uma requisição filtrando pelo {int} da marca') do |make|
     @response_get_model_by_make = class_support.get_by_make(make)
 end
   
@@ -34,7 +34,7 @@ Dado('que eu desejo consultar a versão de modelos de veículos') do
     class_support.get_version
 end
 
-Quando('eu realizo uma requisição filtrando pelo {string} do modelo do veículo') do |id|
+Quando('eu realizo uma requisição filtrando pelo {int} do modelo do veículo') do |id|
     @response_get_version_by_model = class_support.get_by_model(id)
 end
   
@@ -48,7 +48,7 @@ Dado('que eu quero consultar os veículos por pages') do
     class_support.get_vehicle
 end
   
-Quando('eu realizo uma requisição filtrando pela {string}') do |page|
+Quando('eu realizo uma requisição filtrando pela {int}') do |page|
     @response_get_vehicle_by_page = class_support.get_by_page(page)
 end
   
